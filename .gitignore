@@ -11,5 +11,9 @@ __pycache__/
 .DS_Store
 google-services.json
 GoogleService-Info.plist
+!selfcare-pup/google-services.json
+!selfcare-pup/GoogleService-Info.plist
+!fitforge/google-services.json
+!fitforge/GoogleService-Info.plist
 pyright-report.json
 *.log

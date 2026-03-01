@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from typing import Optional, List
-from datetime import date, datetime
+from datetime import date as date_type, datetime
 
 
 class PuppyCreate(BaseModel):
@@ -34,13 +34,13 @@ class PuppyOut(BaseModel):
 class CheckInCreate(BaseModel):
     mood_score: int  # 1-10
     note: Optional[str] = None
-    date: Optional[date] = None
+    date: Optional[date_type] = None
 
 
 class CheckInOut(BaseModel):
     id: str
     user_id: str
-    date: date
+    date: date_type
     mood_score: int
     note: Optional[str]
     created_at: datetime
@@ -68,7 +68,7 @@ class GoalCompletion(BaseModel):
     user_id: str
     goal_id: str
     goal_title: str
-    date: date
+    date: date_type
     xp_earned: int
 
 

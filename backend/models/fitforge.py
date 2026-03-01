@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 from typing import Optional, List
-from datetime import date, datetime
+from datetime import date as date_type, datetime
 
 
 class FitnessProfile(BaseModel):
@@ -71,7 +71,7 @@ class WorkoutLogCreate(BaseModel):
     exercises: List[ExerciseSessionLog]
     duration_minutes: int
     notes: Optional[str] = None
-    date: Optional[date] = None
+    date: Optional[date_type] = None
 
 
 class WorkoutLogOut(WorkoutLogCreate):

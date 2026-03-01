@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "393649086756",
+    "project_id": "rift-apps",
+    "storage_bucket": "rift-apps.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393649086756:android:cd965e46bfcad5ce6c13b1",
+        "android_client_info": {
+          "package_name": "com.rift.fitforge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaJgIzepF8EZKOTvdqIfs5XNYruRnyHOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
